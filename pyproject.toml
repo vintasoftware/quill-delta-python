@@ -19,12 +19,13 @@ classifiers=[
     'Programming Language :: Python :: 3.6',
     'Programming Language :: Python :: 3.7',
     'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
     'Topic :: Text Processing :: Markup'
 ]
 
 [tool.poetry.dependencies]
 python = "^3.6"
-diff-match-patch = "^20181111.0"
+diff-match-patch = "^20121119"
 lxml = {version = "^4.3", optional = true}
 cssutils = {version = "^1.0", optional = true}
 
